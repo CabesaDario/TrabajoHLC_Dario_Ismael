@@ -23,7 +23,7 @@
         <form method="post" action="asignaturas.php">
             <button type="submit" name="asignaturas" value="asignaturas">Asignaturas</button>
         </form>
-        <form method="post" action="">
+        <form method="post" action="tareas.php">
             <button type="submit" name="tareas" value="tareas">Tareas</button>
         </form>
     </div>

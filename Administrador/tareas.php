@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asignaturas</title>
+    <title>Tareas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
             </form>
         </div>
         <div class= "container_listadd">
-            <h1>Asignaturas de HLC</h1>
+            <h1>Tareas de HLC</h1>
             <div class="empty"></div>
             <div class="list">
                 <?php
@@ -30,8 +30,8 @@
                 ?>
             </div>
             <form method="post" action="">
-                <label>Añadir asignatura al curso:</label>
-                <button type="submit" name="add_asignatura" value="add_asignatura">+</button>
+                <label>Añadir tarea:</label>
+                <button type="submit" name="add_tarea" value="add_tarea">+</button>
             </form>
         </div>
     </div>
